@@ -9,11 +9,15 @@ A Vite and TypeScript template for building your React hook library.
 To create a Hook Crafter project, run:
 
 ```sh
-npx create-hook-crafter
+npm create hook-crafter
 ```
 
 ```sh
-pnpm dlx create-hook-crafter
+yarn create hook-crafter
+```
+
+```sh
+pnpm create hook-crafter
 ```
 
 Then follow the prompt.
