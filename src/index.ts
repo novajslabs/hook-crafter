@@ -38,6 +38,11 @@ async function main() {
 
       updatePackageName(projectName, destinationPath);
       logger.success("Project created successfully");
+      logger.msg(`
+🙏 Support my work and help keep this project alive!
+
+☕ Buy me a coffee: https://ko-fi.com/dlcastillop  
+🎉 Get exclusive perks: https://patreon.com/dlcastillop`);
     });
 
   program.parse();
