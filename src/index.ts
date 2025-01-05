@@ -22,6 +22,11 @@ async function main() {
         instructions: false,
       });
 
+      if (!path) {
+        logger.error("\nProject name is required. Exiting.");
+        process.exit(1);
+      }
+
       const __dirname = dirname(fileURLToPath(import.meta.url));
       const templatePath = resolve(__dirname, "../template");
       const destinationPath = resolve(process.cwd(), `${path}`);
@@ -37,12 +42,10 @@ async function main() {
       }
 
       updatePackageName(projectName, destinationPath);
-      logger.success("Project created successfully");
-      logger.msg(`
-🙏 Support my work and help keep this project alive!
-
-☕ Buy me a coffee: https://ko-fi.com/dlcastillop  
-🎉 Get exclusive perks: https://patreon.com/dlcastillop`);
+      logger.success("\nProject created successfully.");
+      logger.msg(
+        "\n🙏 Support my work and help keep Hook Crafter alive! \n\n☕ Buy me a coffee: https://ko-fi.com/dlcastillop \n🎉 Get exclusive perks: https://patreon.com/dlcastillop"
+      );
     });
 
   program.parse();
