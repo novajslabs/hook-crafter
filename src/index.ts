@@ -43,6 +43,7 @@ async function main() {
 
       updatePackageName(projectName, destinationPath);
       logger.success("\nProject created successfully.");
+      logger.msg("\nNow run:");
       logger.msg(
         "\n🙏 Support my work and help keep Hook Crafter alive! \n\n☕ Buy me a coffee: https://ko-fi.com/dlcastillop \n🎉 Get exclusive perks: https://patreon.com/dlcastillop"
       );
