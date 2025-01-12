@@ -73,11 +73,11 @@ Star [this repo](https://github.com/novajslabs/hook-crafter).
 
 ### Share
 
-- [LinkedIn](http://www.linkedin.com/shareArticle?mini=true&url=https://hook-crafter.novajs.co/)
-- [WhatsApp](https://api.whatsapp.com/send?text=https://hook-crafter.novajs.co/)
-- [Facebook](https://www.facebook.com/sharer/sharer.php?u=https://hook-crafter.novajs.co/)
-- [X](https://twitter.com/intent/tweet?url=https://hook-crafter.novajs.co/)
-- [Reddit](https://www.reddit.com/submit?url=https://hook-crafter.novajs.co/)
+- [LinkedIn](http://www.linkedin.com/shareArticle?mini=true&url=https://hookcrafter.dev/)
+- [WhatsApp](https://api.whatsapp.com/send?text=https://hookcrafter.dev/)
+- [Facebook](https://www.facebook.com/sharer/sharer.php?u=https://hookcrafter.dev/)
+- [X](https://twitter.com/intent/tweet?url=https://hookcrafter.dev/)
+- [Reddit](https://www.reddit.com/submit?url=https://hookcrafter.dev/)
 
 ## License
 
