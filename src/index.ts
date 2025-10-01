@@ -80,7 +80,7 @@ async function main() {
       logger.success("\nProject created successfully.");
       logger.msg(`\nNext steps:\n${installCommand}`);
       logger.msg(
-        "\n🙏 Support my work and help keep Hook Crafter alive! \n\n☕ Buy me a coffee: https://ko-fi.com/dlcastillop \n🛒 More developer tools: https://patreon.com/dlcastillop/shop"
+        "\n👉 More developer tools: https://dlcastillop.lemonsqueezy.com/"
       );
     });
 
